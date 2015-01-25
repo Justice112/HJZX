@@ -1,0 +1,25 @@
+/*CMS*/
+#content hr {border:none; border-top:rgba(255,255,255,.3) 1px solid; border-bottom:rgba(0,0,0,.6) 1px solid; transform:scaleY(.5); -webkit-transform:scaleY(.5); height:0; background:none; margin-bottom:20px} 
+.cmsMainBox {margin-bottom:20px; position:relative; z-index:1; font-size:16px}
+.cmsMainBoxCon a,.cmsMainBoxCon u {text-decoration:underline; color:inherit}
+.cmsMainBoxCon p,.cmsMainBoxCon div {margin-bottom:0}
+.cmsMainBoxCon em {font-style:oblique}
+.cmsMainBoxCon li {margin-top:10px}
+.cmsMainBoxCon ul li:first-child,.cmsMainBoxCon ol li:first-child {margin-top:0}
+.cmsMainBoxCon li ul,.cmsMainBoxCon li ol {margin-top:10px}
+.cmsMainBoxCon li li {font-size:.9em}
+.cmsMainBoxCon ul,.cmsMainBoxCon ul li {list-style:disc}
+.cmsMainBoxCon ol,.cmsMainBoxCon ul ol,.cmsMainBoxCon ol li,.cmsMainBoxCon ul ol li {list-style:decimal}
+.cmsMainBoxCon li ul,.cmsMainBoxCon ul li li {list-style:square}
+.cmsMainBoxCon ol ol,.cmsMainBoxCon ol li li {list-style:lower-latin}
+.cmsMainBoxCon li {margin-left:22px; line-height:16px}
+.cmsMainBoxCon h3 {font-size:1.4em; margin-bottom:0.5em}
+.cmsMainBoxCon h4 {font-size:1.2em; margin-bottom:0.5em}
+.cmsMainBoxCon .caption,.caption div {text-align:center}
+.cmsMainBoxCon .caption,.cmsMainBoxCon .caption a {color:#ccc; font-size:0.9em}
+.cmsMainBoxCon table,.cmsMainBoxCon th,.cmsMainBoxCon td {display:block}
+.cmsMainBoxCon th,.cmsMainBoxCon th img {width:74%; margin:auto}
+.cmsMainBoxCon .lImg th {padding-bottom:10px}
+.cmsMainBoxCon .rImg th {padding-top:10px}
+.cmsMainBox img,.cmsMainBox embed,.cmsMainBox iframe {max-width:100%; width:100%; display:block; margin:auto}
+.cmsMainBox embed,.cmsMainBox iframe {max-height:50%}

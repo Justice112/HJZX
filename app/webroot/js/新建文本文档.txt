@@ -1,0 +1,22 @@
+$(document).ready(function(){
+
+	// 主页菜单
+	window.onload = window.onscroll = function() {
+			var oNav=document.getElementById('nav');
+			var oTop = document.documentElement.scrollTop || document.body.scrollTop;
+			if (oTop >= 51) {
+				if (typeof document.body.style.maxHeight === "undefined") {
+					oNav.style.top = oTop + 'px';
+				} else {
+					oNav.style.position = 'fixed';
+					oNav.style.top = 0;
+					oNav.style.zIndex=10000;
+					oNav.style.background = 'rgba(204,204,204,0.8)'
+				}
+			} else {
+				oNav.style.position = 'static';
+				oNav.style.background = 'none'
+			}				
+		};
+
+});
